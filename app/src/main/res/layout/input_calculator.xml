@@ -5,28 +5,31 @@
     android:layout_height="wrap_content">
 
 
-
-
     <TextView
+        android:id="@+id/CalcIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:textColor="@color/black"
+        android:textColor="@color/grey"
         android:background="@color/white"
         android:gravity="end"
-        android:text="78679"
-        android:padding="10dp"/>
-
+        android:padding="10dp" />
 
     <TextView
+        android:id="@+id/CalcOut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="60sp"
-        android:textColor="@color/black"
         android:background="@color/white"
         android:gravity="end"
-        android:text="78679"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+
+
+
+
+
 
 
 </LinearLayout>

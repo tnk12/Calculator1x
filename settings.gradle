@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':rhino-1.7.11', ':converter'
 rootProject.name='Calculator1x'

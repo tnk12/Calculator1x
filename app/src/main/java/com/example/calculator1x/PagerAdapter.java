@@ -26,8 +26,8 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 Tab1 tab1 = new Tab1();
                 return tab1;
             case 1:
-                Tab2 tab2 = new Tab2();
-                return  tab2;
+                Калькулятор калькулятор= new Калькулятор();
+                return  калькулятор;
             case 2:
                 Tab3 tab3 = new Tab3();
                 return  tab3;
